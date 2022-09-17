@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+    position: relative;
+    height: 105vh;
+    overflow-x:hidden;
+    
+  
+}
+#container{
+   /* background-color: red; */
+   display: flex;
+   margin-left: 32%;
+
+}
+h1{
+    height: 200px;
+    width: 400 px;
+    font-size: 50px;
+    background-color:#fff;
+    border-radius: 10px;
+    color:  #1877F2;
+    margin: 20px;
+    /* top: 13 vh;
+    left: 20 vw;
+    margin-left: 30vw;   */
+}
+
+#logins{
+    position: relative;
+    background-color: #FFFFFF;
+    height: 80vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    top: 7vh;
+    border-radius: 10px;
+    justify-content: flex-start;
+    padding: 10px 10px 20px 10px;
+    align-items: center; 
+    box-shadow: 0 5px 5px 3px gainsboro ;
+    /* top right bottom left */
+}
+#logins > a{
+    margin: 18px 0 ;
+    text-decoration: none;
+    font-size: 15px;
+    color: #1877F2;
+    /* background-color:gainsboro; */
+}
+#logins > a:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 95%;
+    height:0.1%;
+    background-color: black;
+    border: none  ;
+}
+#logins > input[type = email] , #logins > input[type=password],#logins > input[type=text]{
+    height: 35%;
+    /* background-color: pink; */
+    margin: 8px 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 95%;
+    border: 1.5px solid #EEEFF0;
+}
+.genZ{
+    color: red;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:white;
+    width: 95%;
+    color: black;
+}
+#gen{
+    height: 35%;
+    margin: 8px 0;
+    margin-left: 0px;
+    border-radius: 5px;
+    padding-left: 750px;
+    font-size: 16px;
+    background-color:white;
+    width: 95%;
+    color: black;
+    margin-bottom: 20px;
+    /* align-items: baseline; */
+}
+#logins > input[type=password]{
+    margin-bottom: 12px;
+}
+#logins >input[type=email]:focus , #logins>input[type=password]:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px #719ECE;
+    caret-color: blue;
+}
+#login-button{
+    background-color: #1877F2;
+    color: #FFFFFF;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    height: 150px;
+    font-weight: bold;
+    width: 95%;
+}
+#login-button:hover{
+    background-color: #166FE5;
+    cursor: pointer;
+}
+#create-new-Account{
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    height: 200px;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 20px;
+}
+#create-new-Account:hover{
+    background-color: #36A420;
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+    position: absolute;
+    bottom: -55px;
+    text-align:center;
+
+}
